@@ -1,0 +1,6 @@
+version: '3'
+services:
+  vscode-ext:
+    volumes:
+      - ~/.gitconfig:/home/node/.gitconfig
+    command: /bin/sh -c "while sleep 1000; do :; done"

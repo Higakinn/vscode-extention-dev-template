@@ -1,0 +1,7 @@
+version: '3'
+services:
+  vscode-ext:
+    build: .
+    tty: true
+    volumes:
+      - ./:/workspace/
